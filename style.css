@@ -1,0 +1,30 @@
+body{
+    background-color:black ;
+    font-family: cursive;
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color: gray;
+    border-radius: 7px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    box-shadow: 0px 0px 10px 2px rgb(6, 185, 240);
+}
+#container{
+    text-align: center;
+}
+#result{
+    width: 280px;
+    height: 120px;
+    background-color: rgb(177, 183, 158);
+    margin: 20px auto;
+    border-radius: 5px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 30px;
+}
+#keyboard{
+    height: 400px;
+}
