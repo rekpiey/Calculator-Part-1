@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div id="container">
@@ -14,27 +15,29 @@
             </div>
             <div id="keyboard">
                 <button>DEL</button>
-                <button>C</button>
-                <button class="ops">/</button>
-                <button class="ops">*</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button class="ops">-</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button class="ops">+</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="ops">=</button>
-                <button>0</button>
-                <button>.</button>
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="addtodisplay('/')" class="ops">/</button>
+                <button onclick="addtodisplay('*')" class="ops">*</button>
+                <button onclick="addtodisplay('7')">7</button>
+                <button onclick="addtodisplay('8')" >8</button>
+                <button onclick="addtodisplay('9')" >9</button>
+                <button onclick="addtodisplay('-')" class="ops">-</button>
+                <button onclick="addtodisplay('4')" >4</button>
+                <button onclick="addtodisplay('5')" >5</button>
+                <button onclick="addtodisplay('6')" >6</button>
+                <button onclick="addtodisplay('+')" class="ops">+</button>
+                <button onclick="addtodisplay('1')" >1</button>
+                <button onclick="addtodisplay('2')" >2</button>
+                <button onclick="addtodisplay('3')" >3</button>
+                <button onclick="calculator()" class="ops">=</button>
+                <button onclick="addtodisplay('0')" >0</button>
+                <button onclick="addtodisplay('.')" >.</button>
 
                
             </div>
         </div>
     </div>
+
+<script src="script.js"></script>
 </body>
 </html>
